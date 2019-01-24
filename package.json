@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/jvik/sundbaat-slackbot#readme",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18"
   }
 }
