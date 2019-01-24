@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"types": ["node"],
+		"target": "es6",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"inlineSourceMap": false,
+		"outDir": "dist",
+		"lib": ["es6", "dom", "esnext", "esnext.asynciterable"],
+	},
+	"include": [
+		"src/***.ts",
+	],
+	"exclude": [
+		"node_modules"
+	],
+}
